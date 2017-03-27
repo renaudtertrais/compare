@@ -12,3 +12,10 @@ const capitalize = s => s.split(' ')
   .join(' ');
 ```
 [demo](https://repl.it/Gfhw/0)
+
+## Haskell
+```haskell
+import Data.Char
+capitalize = unwords . map (\s -> (toUpper . head) s : (map toLower . tail) s) . words
+```
+[demo](https://repl.it/Gfgc/0)
