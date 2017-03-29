@@ -27,3 +27,26 @@ import Data.Char
 capitalize = unwords . map (\s -> (toUpper . head) s : (map toLower . tail) s) . words
 ```
 [demo](https://repl.it/Gfgc/0)
+
+## Swift
+
+```swift
+import Foundation
+
+func head(str: String) -> String {
+  return str[str.startIndex..<str.index(str.startIndex, offsetBy: 1)]
+}
+
+func tail(str: String) -> String {
+  return str[str.index(str.startIndex, offsetBy: 1)..<str.endIndex]
+}
+
+func capitalize(str: String) -> String {
+   return str
+    .components(separatedBy: " ")
+    .map { head(str: $0).uppercased() + tail(str: $0).lowercased() }
+    .joined(separator: " ")
+}
+```
+
+[demo](https://repl.it/GlGL/4)
