@@ -7,7 +7,8 @@ capitalize("Hello world! WOW it looks awesome :)");
 ```
 ## Javascript
 ```js
-const capitalize = s => s.split(' ')
+const capitalize = s => s
+  .split(' ')
   .map(w => w[0].toUpperCase() + w.slice(1).toLowerCase())
   .join(' ');
 ```
