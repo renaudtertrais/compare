@@ -5,7 +5,7 @@ The idea is to compare implementation of simple piece of code with javascript, p
 
 ## Snippets
 
-- [capitalize](capitalize.md)
+- [toTitleCase](toTitleCase.md)
 
 ## Contributing
 
