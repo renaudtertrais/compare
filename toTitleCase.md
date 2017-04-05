@@ -22,6 +22,17 @@ def toTitleCase(s):
 ```
 [demo](https://repl.it/Gfk4/3)
 
+## Ruby
+
+```ruby
+def toTitleCase s
+  s.split(' ')
+    .map { |x| x[0].upcase + x[1..-1].downcase }
+    .join(' ') 
+end
+```
+[demo](https://repl.it/Gwh9/0)
+
 ## Haskell
 ```haskell
 import Data.Char
