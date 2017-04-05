@@ -8,16 +8,17 @@ a = range(1, 10)
 ```
 
 ## Javascript
-
+**using `Array.from()`:**
 ```js
-// using Array.from()
 const range = (from, to) => Array
   .from({ length: Math.max(to - from + 1, 0) })
   .map((_, i) => i + from);
 
 const a = range(1, 10);
+```
 
-// recusive
+**recursive:**
+```js
 const rangeRec = (from, to) => from > to 
   ? []
   : from === to
