@@ -27,6 +27,7 @@ const rangeRec = (from, to) => from > to
     
 const b = rangeRec(1, 10);
 ```
+[demo](https://repl.it/GtnU/2)
 
 ## Ruby
 ```rb
