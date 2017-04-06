@@ -29,6 +29,15 @@ const b = rangeRec(1, 10);
 ```
 [demo](https://repl.it/GtnU/2)
 
+## Python
+
+```py
+a = [x for x in range(1, 11)]
+b = list(range(1, 11))
+```
+
+[demo](https://repl.it/Gyui/0)
+
 ## Ruby
 ```rb
 a = *(1..10)
