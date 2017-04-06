@@ -5,6 +5,14 @@ A `function` that take a `string` in input and should return all words of the `s
 toTitleCase("Hello world! WOW it looks awesome :)");
 // "Hello World! Wow It Looks Awesome :)"
 ```
+
+## Haskell
+```haskell
+import Data.Char
+toTitleCase = unwords . map (\s -> (toUpper . head) s : (map toLower . tail) s) . words
+```
+[demo](https://repl.it/Gfgc/1)
+
 ## Javascript
 ```js
 const toTitleCase = s => s
@@ -32,13 +40,6 @@ def toTitleCase s
 end
 ```
 [demo](https://repl.it/Gwh9/0)
-
-## Haskell
-```haskell
-import Data.Char
-toTitleCase = unwords . map (\s -> (toUpper . head) s : (map toLower . tail) s) . words
-```
-[demo](https://repl.it/Gfgc/1)
 
 ## Swift
 
