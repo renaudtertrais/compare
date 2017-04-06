@@ -7,6 +7,12 @@ a = range(1, 10)
 // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
+## Haskell
+```haskell
+a = [1..10]
+```
+[demo](https://repl.it/GyvT/0)
+
 ## Javascript
 **using `Array.from()`:**
 ```js
@@ -30,7 +36,6 @@ const b = rangeRec(1, 10);
 [demo](https://repl.it/GtnU/2)
 
 ## Python
-
 ```py
 a = [x for x in range(1, 11)]
 b = list(range(1, 11))
