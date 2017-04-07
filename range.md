@@ -25,15 +25,11 @@ const a = range(1, 10);
 
 **recursive:**
 ```js
-const rangeRec = (from, to) => from > to 
-  ? []
-  : from === to
-    ? [from]
-    : [from, ...rangeRec(from + 1, to)];
+const rangeRec = (from, to) => from > to ? [] : [from, ...rangeRec(from + 1, to)];
     
 const b = rangeRec(1, 10);
 ```
-[demo](https://repl.it/GtnU/2)
+[demo](https://repl.it/GtnU/3)
 
 ## Python
 ```py
