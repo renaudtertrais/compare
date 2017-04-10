@@ -8,6 +8,14 @@ it is interssting to compare the difference when implenting it.
 sum([1, 2, 3]); // -> 6
 ```
 
+## Haskell
+
+```haskell
+sum = foldl (+) 0
+```
+[demo](https://repl.it/HECN/0)
+
+
 ## Javascript
 
 **using reduce**
