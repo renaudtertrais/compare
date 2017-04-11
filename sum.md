@@ -8,6 +8,13 @@ it is interssting to compare the difference when implenting it.
 sum([1, 2, 3]); // -> 6
 ```
 
+## F#
+
+```f#
+let sum = List.reduce (+)
+```
+[demo](https://repl.it/HFbJ/1)
+
 ## Haskell
 
 ```haskell
