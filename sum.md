@@ -22,7 +22,6 @@ sum = foldl (+) 0
 ```
 [demo](https://repl.it/HECN/0)
 
-
 ## Javascript
 
 **using reduce**
@@ -35,5 +34,13 @@ const sum = xs => xs.reduce(add);
 ```js
 const sum = xs => xs.length > 0 ? xs[0] + sumRec(xs.slice(1)) : 0;
 ```
-
 [demo](https://repl.it/HCV3/0)
+
+## Python
+```py
+from functools import reduce
+from operator import add
+
+def sum (xs): return reduce(add, xs)
+```
+[demo](https://repl.it/HH1F/2)
