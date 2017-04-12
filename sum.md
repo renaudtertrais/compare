@@ -44,3 +44,11 @@ from operator import add
 def sum (xs): return reduce(add, xs)
 ```
 [demo](https://repl.it/HH1F/2)
+
+## Ruby
+```rb
+def sum (xs)
+  xs.reduce(:+)
+end
+```
+[demo](https://repl.it/HH3k/0)
