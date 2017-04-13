@@ -3,7 +3,7 @@ Implements simple snippets with most famous languages
 
 The idea is to compare implementation of simple piece of code with javascript, python, haskell, ruby...
 
-<img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/javascript.svg" width="80" height="80" /> <img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/python.svg" width="80" height="80" /> <img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/haskell.svg" width="80" height="80" /> <img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/ruby.svg" width="70" height="70" /> <img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/fsharp.svg" width="80" height="80" /> <img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/swift.svg" width="80" height="80" />
+<img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/javascript.svg" width="80" height="80" /> <img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/python.svg" width="80" height="80" /> <img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/haskell.svg" width="80" height="80" /> <img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/ruby.svg" width="70" height="70" /> <img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/fsharp.svg" width="80" height="80" /> <img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/swift.svg" width="80" height="80" /> <img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/clojure.svg" width="80" height="80" />
 
 ## Snippets
 
