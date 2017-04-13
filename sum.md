@@ -8,6 +8,12 @@ it is interesting to compare the difference when implenting it.
 sum([1, 2, 3]); // -> 6
 ```
 
+## Clojure
+```clojure
+(def sum (fn [xs] (reduce + xs)))
+```
+[demo](https://repl.it/HITM/0)
+
 ## F#
 
 ```f#
