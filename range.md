@@ -7,6 +7,21 @@ a = range(1, 10)
 // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
+## Clojure
+
+**native `range` function**
+```clojure
+a = range(1, 11)
+```
+
+**recursive implementation**
+```clojure
+(def range-rec (fn [from, to] (
+  if (> from to) [] (cons from (range_ (+ from 1) to))
+)))
+```
+[demo](https://repl.it/HKZ5/1)
+
 ## Haskell
 ```haskell
 a = [1..10]
