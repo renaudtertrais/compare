@@ -10,9 +10,9 @@ sum([1, 2, 3]); // -> 6
 
 ## Clojure
 ```clojure
-(def sum (fn [xs] (reduce + xs)))
+(def sum (partial reduce +))
 ```
-[demo](https://repl.it/HITM/0)
+[demo](https://repl.it/HITM/1)
 
 ## F#
 
