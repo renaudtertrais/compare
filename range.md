@@ -16,9 +16,9 @@ a = range(1, 11)
 
 **recursive implementation**
 ```clojure
-(def range-rec (fn [from, to] (
+(defn range-rec [from, to] (
   if (> from to) '() (cons from (range-rec (+ from 1) to))
-)))
+))
 ```
 [demo](https://repl.it/HKZ5/2)
 
