@@ -6,6 +6,17 @@ toTitleCase("Hello world! WOW it looks awesome :)");
 // "Hello World! Wow It Looks Awesome :)"
 ```
 
+## Clojure
+```clojure
+(use '[clojure.string :only (join split upper-case lower-case)])
+(def toTitleCase (comp
+  (partial join " ")
+  (partial map (fn [[head & tail]] (str (upper-case head) (lower-case (join tail)))))
+  #(split %1 #"\s")
+))
+```
+[demo](https://repl.it/HMjY/1)
+
 ## Haskell
 ```haskell
 import Data.Char
