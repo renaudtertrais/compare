@@ -22,6 +22,12 @@ a = range(1, 11)
 ```
 [demo](https://repl.it/HKZ5/3)
 
+## F#
+```f#
+let a = [1..10]
+```
+[demo](https://repl.it/HQn5/0)
+
 ## Haskell
 ```haskell
 a = [1..10]
