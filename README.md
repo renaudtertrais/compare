@@ -8,6 +8,7 @@ The idea is to compare implementation of simple piece of code with javascript, p
 ## Snippets
 
 - [sum](sum.md)
+- [factorial](factorial.md)
 - [range](range.md)
 - [toTitleCase](toTitleCase.md)
 
