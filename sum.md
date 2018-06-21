@@ -24,7 +24,7 @@ let sum = List.reduce (+)
 ## Haskell
 
 ```haskell
-sum = foldl (+) 0
+sum = foldl1 (+)
 ```
 [demo](https://repl.it/HECN/0)
 
@@ -32,13 +32,12 @@ sum = foldl (+) 0
 
 **using reduce**
 ```js
-const add = (x, y) => x + y;
-const sum = xs => xs.reduce(add);
+const sum = xs => xs.reduce((x, y) => x + y);
 ```
 
 **recursive**
 ```js
-const sum = xs => xs.length > 0 ? xs[0] + sumRec(xs.slice(1)) : 0;
+const sum = ([head, ...tail]) => tail.length ? head + sum(tail) : head;
 ```
 [demo](https://repl.it/HCV3/0)
 
